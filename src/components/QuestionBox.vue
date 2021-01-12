@@ -2,7 +2,7 @@
   <div class="question-box-container">
     <b-jumbotron>
       <template #lead>
-        {{ currentQuestion.question }}
+      <p v-html="currentQuestion.question"></p>
       </template>
 
       <hr class="my-4" />
