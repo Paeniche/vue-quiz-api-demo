@@ -14,7 +14,7 @@
           @click="selectedAnswer(index)"
           :class="answerClass(index)"
         >
-          {{ answer }}
+          <span v-html="answer"></span>
         </b-list-group-item>
       </b-list-group>
 
